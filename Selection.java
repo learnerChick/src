@@ -1,5 +1,3 @@
-package algorithms;
-
 /**
  * quadratic running t ime(n2).  Doesn't matter the order of the input. It will still go through all inputs and exchange them.
  * Not a stable sort because of that.

@@ -1,5 +1,3 @@
-package algorithms;
-
 import java.util.Arrays;
 /**
  * Divide into 2 halves, recursively sort each half and then merge both halves.

@@ -1,6 +1,11 @@
 /**
+ *  Begin with unsorted list.  Then place a marker after first item.  
+ *  This divides the list into a "sorted and unsorted list".
+ *  Repeatedly compare first unsorted number with the numbers in sorted section.  
+ *  If it finds a lower number, it swaps them.
+ *  Then pointer is moved to the right.
  *  Best case - if array is in ascending order, insertion sort makes N-1 compares and 0 exchanges. 0(n)
- *  Worst case - array is in descending order, N2 compares and N2 and exchanges 0(n2)
+ *  Average case/Worst case - array is in descending order, N2 compares and N2 and exchanges 0(n2)
  *  Stable sort
  */
 public class Insertion {

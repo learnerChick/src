@@ -1,5 +1,3 @@
-package algorithms;
-
 /**
  * The drawback of arrays is the size is fixed. But each operation takes a constant amortized time.(bases on resize pop/push).
  * Less wasted space.
@@ -23,6 +21,7 @@ public class FixedCapacityStackOfStrings {
     
     /*A better idea is to 
       resize the array when the array is full by doubling its size and copying the items.
+      * As the number of items gets larger, the times to resize reduces.
     */
     public void pushResize(String item){
         if(N == s.length){
@@ -30,7 +29,9 @@ public class FixedCapacityStackOfStrings {
         }
         s[N++] = item;
     }
-       
+    
+    //--N is prefix.  It reduces the value of N by 1 and returns the new value
+    //N++ is postfix.  It adds 1 to N and returns the old value.
     public String pop(){
         String item = s[--N];
         s[N] = null;

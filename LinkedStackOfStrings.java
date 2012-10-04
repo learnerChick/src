@@ -1,8 +1,5 @@
-package algorithms;
-
 /**
  *
- * @author Dhana
  * Every operation takes a constant time in the worst case.
  * Uses extra time and space to deal with links.
  * Better option if you want every operation to be fast.  

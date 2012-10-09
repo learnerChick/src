@@ -1,9 +1,6 @@
 /**
- * quadratic running t ime(n2).  Doesn't matter the order of the input. 
- * It will still go through all inputs and exchange them.
- * Keeps a min for each outer loop, then uses that as a comparison basis.
+ * quadratic running t ime(n2).  Doesn't matter the order of the input. It will still go through all inputs and exchange them.
  * Not a stable sort because of that.
- * All data needs to be present in the beginning of the sort.
  */
 public class Selection {
     public static void sort(Comparable[] a){        

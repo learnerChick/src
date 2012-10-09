@@ -17,6 +17,8 @@ public class Insertion {
                     exchange(a,j,j-1);
                 }
                 else{
+                	//as soon as you hit a point where the case above is not true, break out of the loop
+                	//because it's already sorted.
                     break;
                 }
             }

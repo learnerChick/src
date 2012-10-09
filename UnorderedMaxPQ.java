@@ -78,7 +78,7 @@ public class UnorderedMaxPQ<Key extends Comparable<Key>> {
 		queue.insert("liking");
 		queue.insert("peasants");
 		queue.insert("algorithms");
-		
+		System.out.println("Size is: " + queue.size());
 		System.out.println(queue.delMax());
 	}
 }

@@ -24,6 +24,7 @@ public class Insertion {
         show(a);
     }
 
+    //think about this such that b-a < 0
     private static boolean less(Comparable a, Comparable b) {
         return a.compareTo(b) < 0;
     }

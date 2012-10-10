@@ -7,6 +7,8 @@
  *  Best case - if array is in ascending order, insertion sort makes N-1 compares and 0 exchanges. 0(n)
  *  Average case/Worst case - array is in descending order, N2 compares and N2 and exchanges 0(n2)
  *  Stable sort
+ *  Good for small lists.
+ *  In space algorithm, so constant space is required O(1)
  */
 public class Insertion {
 
@@ -26,7 +28,7 @@ public class Insertion {
         show(a);
     }
 
-    //think about this such that b-a < 0
+    //think about this such that a-b < 0
     private static boolean less(Comparable a, Comparable b) {
         return a.compareTo(b) < 0;
     }
